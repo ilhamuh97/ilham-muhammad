@@ -4,13 +4,15 @@
     top: 0;
     display: flex;
     justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
     div {
-        padding: 30px 20px;
+        padding: 25px 20px;
         cursor: pointer;
         transition: 0.3s;
         color: white;
         &:hover {
             color: #fca311;
+            background-color: rgba(0, 0, 0, 0.8);
         }
     }
 }
