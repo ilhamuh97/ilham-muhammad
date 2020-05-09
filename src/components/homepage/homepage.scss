@@ -45,4 +45,9 @@
             }
         }
     }
+    @media screen and (min-width: 1439px) {
+        .hero-content {
+            width: 60%;
+        }
+    }
 }
