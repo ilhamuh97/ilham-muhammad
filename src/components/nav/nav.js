@@ -5,10 +5,10 @@ import './nav.scss';
 const Nav = () => {
     return (
         <div className="nav">
-            <div className="item homepage">Homepage</div>
-            <div className="item biodata">Biodata</div>
-            <div className="item studies">Studies</div>
-            <div className="item skills">Skills</div>
+            <div className="nav-item">Homepage</div>
+            <div className="nav-item">Biodata</div>
+            <div className="nav-item">Studies</div>
+            <div className="nav-item">Skills</div>
         </div>
     )
 }

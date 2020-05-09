@@ -3,14 +3,14 @@
     width: 100%;
     top: 0;
     display: flex;
-    justify-content: flex-end;
-    background-color: #eddcd2;
-    .item {
-        padding: 20px;
+    justify-content: center;
+    div {
+        padding: 30px 20px;
         cursor: pointer;
         transition: 0.3s;
+        color: white;
         &:hover {
-            background-color: #cb997e;
+            color: #fca311;
         }
     }
 }
