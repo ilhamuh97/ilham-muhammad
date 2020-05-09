@@ -3,6 +3,8 @@ import React from 'react';
 import './biodata.scss';
 import Wave from '../../assets/bioWave.svg'
 import ParticlesBg from 'particles-bg'
+
+//npm install --save particles-bg
 const Biodata = () => {
     return (
         <div id="section2" className="biodata">
