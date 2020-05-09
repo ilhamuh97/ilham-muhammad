@@ -1,11 +1,14 @@
 import React from 'react';
 
 import './biodata.scss';
+import Wave from '../../assets/bioWave.svg'
+import ParticlesBg from 'particles-bg'
 const Biodata = () => {
     return (
-        <div className="biodata">
+        <div id="section2" className="biodata">
+            <ParticlesBg num={30} type="cobweb" bg="true" />
             <div className="about-me-container">
-                <h1>Ilham Muhammad</h1>
+                <h1 className="name">Ilham <br />Muhammad</h1>
 
                 <div className="image-holder">
                     <div className="background-image"></div>
@@ -28,6 +31,7 @@ const Biodata = () => {
                     </div>
                 </div>
             </div>
+            <img className="wave" src={Wave}></img>
         </div>
     );
 };
