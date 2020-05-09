@@ -1,0 +1,35 @@
+import React from 'react';
+
+import './biodata.scss';
+const Biodata = () => {
+    return (
+        <div className="biodata">
+            <div className="about-me-container">
+                <h1>Ilham Muhammad</h1>
+
+                <div className="image-holder">
+                    <div className="background-image"></div>
+                </div>
+                <div className="tickets">
+                    <div className="ticket">
+                        <h2>Born</h2>
+                        <p>On 6th June 1997</p>
+                        <p>In Jakarta, Indonesia</p>
+                    </div>
+                    <div className="ticket">
+                        <h2>Live</h2>
+                        <p>In Rhinstr.51</p>
+                        <p>Berlin, Germany</p>
+                    </div>
+                    <div className="ticket">
+                        <h2>Contact</h2>
+                        <p>Phone: +49 179 2851 483</p>
+                        <p>Email: ilhamuh97@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    );
+};
+
+export default Biodata;
