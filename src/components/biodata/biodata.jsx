@@ -8,13 +8,13 @@ import ParticlesBg from 'particles-bg'
 const Biodata = () => {
     return (
         <div id="section2" className="biodata">
-            <ParticlesBg num={30} type="cobweb" bg="true" />
+            <ParticlesBg className="particle" num={30} type="cobweb" bg={true} />
             <div className="about-me-container">
-                <h1 className="name">Ilham <br />Muhammad</h1>
-
+                <h1 className="name">Ilham Muhammad</h1>
                 <div className="image-holder">
                     <div className="background-image"></div>
                 </div>
+                <h2 className="title">My biodata and current states of me:</h2>
                 <div className="tickets">
                     <div className="ticket">
                         <h2>Born</h2>
@@ -32,8 +32,19 @@ const Biodata = () => {
                         <p>Email: ilhamuh97@gmail.com</p>
                     </div>
                 </div>
+                <div className="tickets">
+                    <div className="ticket">
+                        <h2>Study</h2>
+                        <p>Univerity of Applied Sciences</p>
+                        <p>In Berlin, Germany</p>
+                    </div>
+                    <div className="ticket">
+                        <h2>Motto</h2>
+                        <p>Be meaningful for others</p>
+                        <p>When you can't, then try to be</p>
+                    </div>
+                </div>
             </div>
-            <img className="wave" src={Wave}></img>
         </div>
     );
 };
