@@ -41,7 +41,7 @@ const Biodata = () => {
                     <div className="ticket">
                         <h2>Motto</h2>
                         <p>Be meaningful for others</p>
-                        <p>When you can't, then try to be</p>
+                        <p>If you can't, then try to be</p>
                     </div>
                 </div>
             </div>
