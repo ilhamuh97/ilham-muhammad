@@ -1,31 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "400d213aa685d0bf8fd84532cc8a80b9",
+    "revision": "4d784dfae102b644092a3d59546ef1a4",
     "url": "/ilham-muhammad/index.html"
   },
   {
-    "revision": "6e6080bfa56a261b063c",
+    "revision": "bea229e86de1906fec05",
     "url": "/ilham-muhammad/static/css/main.d136fef7.chunk.css"
   },
   {
-    "revision": "f81dd84f0d3bdcbc8236",
-    "url": "/ilham-muhammad/static/js/2.faa87261.chunk.js"
+    "revision": "fae98253a9f1422ac2e8",
+    "url": "/ilham-muhammad/static/js/2.53efce45.chunk.js"
   },
   {
-    "revision": "cbe01fbbe035bf90d35a835621f136ef",
-    "url": "/ilham-muhammad/static/js/2.faa87261.chunk.js.LICENSE.txt"
+    "revision": "570d362d673dab785e62d2b8563e1118",
+    "url": "/ilham-muhammad/static/js/2.53efce45.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6e6080bfa56a261b063c",
-    "url": "/ilham-muhammad/static/js/main.8f93c26d.chunk.js"
+    "revision": "bea229e86de1906fec05",
+    "url": "/ilham-muhammad/static/js/main.40b22276.chunk.js"
   },
   {
     "revision": "edea0f947b86a9fdb1a6",
     "url": "/ilham-muhammad/static/js/runtime-main.ed45f08e.js"
-  },
-  {
-    "revision": "dc82a1cc4d33550ce3ed227d7d8e692f",
-    "url": "/ilham-muhammad/static/media/bioWave.dc82a1cc.svg"
   },
   {
     "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
