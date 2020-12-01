@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/ilham-muhammad/static/css/main.27d40fb4.chunk.css",
-    "main.js": "/ilham-muhammad/static/js/main.2a2cc831.chunk.js",
-    "main.js.map": "/ilham-muhammad/static/js/main.2a2cc831.chunk.js.map",
+    "main.css": "/ilham-muhammad/static/css/main.37e33ffd.chunk.css",
+    "main.js": "/ilham-muhammad/static/js/main.a3236f85.chunk.js",
+    "main.js.map": "/ilham-muhammad/static/js/main.a3236f85.chunk.js.map",
     "runtime-main.js": "/ilham-muhammad/static/js/runtime-main.ed45f08e.js",
     "runtime-main.js.map": "/ilham-muhammad/static/js/runtime-main.ed45f08e.js.map",
     "static/js/2.53efce45.chunk.js": "/ilham-muhammad/static/js/2.53efce45.chunk.js",
     "static/js/2.53efce45.chunk.js.map": "/ilham-muhammad/static/js/2.53efce45.chunk.js.map",
     "index.html": "/ilham-muhammad/index.html",
-    "precache-manifest.8f875b252e32b8ce5ba07d87a5cc806f.js": "/ilham-muhammad/precache-manifest.8f875b252e32b8ce5ba07d87a5cc806f.js",
+    "precache-manifest.ed9839e532de33e7d3af10f4d5eef720.js": "/ilham-muhammad/precache-manifest.ed9839e532de33e7d3af10f4d5eef720.js",
     "service-worker.js": "/ilham-muhammad/service-worker.js",
-    "static/css/main.27d40fb4.chunk.css.map": "/ilham-muhammad/static/css/main.27d40fb4.chunk.css.map",
+    "static/css/main.37e33ffd.chunk.css.map": "/ilham-muhammad/static/css/main.37e33ffd.chunk.css.map",
     "static/js/2.53efce45.chunk.js.LICENSE.txt": "/ilham-muhammad/static/js/2.53efce45.chunk.js.LICENSE.txt",
-    "static/media/homepage.scss": "/ilham-muhammad/static/media/photoProfile.691dcac0.jpg",
+    "static/media/homepage.scss": "/ilham-muhammad/static/media/hero-img.2d6bfe7d.jpg",
     "static/media/biodata.scss": "/ilham-muhammad/static/media/photoProfile2.3fc0b06e.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.ed45f08e.js",
     "static/js/2.53efce45.chunk.js",
-    "static/css/main.27d40fb4.chunk.css",
-    "static/js/main.2a2cc831.chunk.js"
+    "static/css/main.37e33ffd.chunk.css",
+    "static/js/main.a3236f85.chunk.js"
   ]
 }
