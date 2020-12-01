@@ -5,11 +5,8 @@ import './biodata.scss';
 //npm install --save particles-bg
 const Biodata = () => {
     return (
-        <div id="section2" className="section biodata">
+        <div id="biodata" className="section biodata">
             <div className="about-me-container">
-                <div className="image-holder">
-                    <div className="background-image"></div>
-                </div>
                 <div className="motto">
                     <span>" Be meaningful for others</span>
                     <span>If you can't, then try to be! "</span>

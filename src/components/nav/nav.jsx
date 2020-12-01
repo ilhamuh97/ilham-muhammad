@@ -7,10 +7,10 @@ class Nav extends Component {
         return (
             <div className="nav">
                 <div className="link">
-                    <a href="#section1" className="nav-item">Home</a>
+                    <a href="#homepage" className="nav-item">Home</a>
                 </div>
                 <div className="link">
-                    <a href="#section2" className="nav-item">Biodata</a>
+                    <a href="#biodata" className="nav-item">Biodata</a>
                 </div>
                 <div className="link">
                     <a href="#section3" className="nav-item">Studies</a>

@@ -1,0 +1,98 @@
+#intro {
+    position: relative;
+    background-color: #fff;
+    margin: 0 auto -200px;
+    box-shadow: 0 0 10px #000000;
+    .info {
+        display: flex;
+        padding: 25px 90px 15px 90px;
+        justify-content: center;
+        align-items: center;
+        .image-holder {
+            border-radius: 20px;
+            width: 200px;
+            height: 200px;
+            border-style: solid;
+            border-color: #14213d;
+            overflow: hidden;
+            transition: 0.3s;
+            margin-right: 50px;
+            &:hover {
+                box-shadow: 0 0 10px 14213d;
+            }
+            .background-image {
+                width: 100%;
+                height: 100%;
+                background-image: url("../../assets/photoProfile2.jpeg");
+                background-position: center;
+                background-size: cover;
+                &:hover {
+                    transform: scale(1.1);
+                    transition: transform 0.3s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+                }
+            }
+        }
+        .description {
+            .title {
+                padding: 10px 0;
+                border: 0;
+                border-bottom: 1px;
+                border-style: solid;
+                border-color: #ccc;
+                .main {
+                    margin: 5px 0;
+                    font-size: 36px;
+                    span {
+                        font-weight: 700;
+                    }
+                }
+                .submain {
+                    font-size: 18px;
+                    font-weight: 400;
+                    margin: 5px 0;
+                }
+            }
+            .detail {
+                margin-top: 30px;
+                .detail-wrapper {
+                    display: flex;
+                    padding: 10px 0;
+                    .left {
+                        font-weight: bold;
+                        width: 120px;
+                    }
+                }
+            }
+        }
+    }
+    .profile-search {
+        padding: 15px 0;
+        background-color: #fca311;
+        .social-media {
+            display: flex;
+            justify-content: center;
+            a {
+                display: inline-block;
+                margin: 5px 15px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .facebook {
+                img {
+                    width: 23px;
+                }
+            }
+            .twitter {
+                img {
+                    width: 35px;
+                }
+            }
+            .linkedin {
+                img {
+                    width: 25px;
+                }
+            }
+        }
+    }
+}

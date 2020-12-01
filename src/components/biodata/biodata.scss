@@ -1,9 +1,9 @@
-.biodata {
+#biodata {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-
+    padding: 20px 0;
     .motto {
         display: flex;
         flex-flow: column;
