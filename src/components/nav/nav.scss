@@ -1,19 +1,18 @@
 .nav {
     position: fixed;
-    //position: absolute;
     width: 100%;
     top: 0;
-    display: flex;
-    justify-content: flex-end;
-    background-color: rgba(0, 0, 0, 0.8);
-    //background-color: #222222;
+    background-color: #fff;
+    text-align: center;
+    padding: 20px 0;
     z-index: 1000;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3), 0 6px 10px rgba(0, 0, 0, 0.23);
 
     a {
         padding: 10px 20px;
         cursor: pointer;
         transition: 0.3s;
-        color: white;
+        color: black;
         text-decoration: none;
         &:hover {
             color: #fca311;

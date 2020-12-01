@@ -4,7 +4,7 @@ import './homepage.scss'
 
 const Homepage = () => {
     return (
-        <div id="section1" className="homepage">
+        <div id="section1" className="section homepage">
             <div className="hero-content">
                 <div className="">
                     <h1 className="welcome-text">Hey There!</h1>

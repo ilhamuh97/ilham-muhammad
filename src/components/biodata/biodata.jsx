@@ -5,13 +5,15 @@ import './biodata.scss';
 //npm install --save particles-bg
 const Biodata = () => {
     return (
-        <div id="section2" className="biodata">
+        <div id="section2" className="section biodata">
             <div className="about-me-container">
-                <h1 className="name">Ilham Muhammad</h1>
                 <div className="image-holder">
                     <div className="background-image"></div>
                 </div>
-                <h2 className="title">My biodata and current states of me:</h2>
+                <div className="motto">
+                    <span>Be meaningful for others</span>
+                    <span>If you can't, then try to be!</span>
+                </div>
                 <div className="tickets">
                     <div className="ticket">
                         <h2>Born</h2>
@@ -23,11 +25,7 @@ const Biodata = () => {
                         <p>In Rhinstr.51</p>
                         <p>Berlin, Germany</p>
                     </div>
-                    <div className="ticket">
-                        <h2>Contact</h2>
-                        <p>Phone: +49 179 2851 483</p>
-                        <p>Email: ilhamuh97@gmail.com</p>
-                    </div>
+                    
                 </div>
                 <div className="tickets">
                     <div className="ticket">
@@ -36,9 +34,9 @@ const Biodata = () => {
                         <p>In Berlin, Germany</p>
                     </div>
                     <div className="ticket">
-                        <h2>Motto</h2>
-                        <p>Be meaningful for others</p>
-                        <p>If you can't, then try to be!</p>
+                        <h2>Contact</h2>
+                        <p>Phone: +49 179 2851 483</p>
+                        <p>Email: ilhamuh97@gmail.com</p>
                     </div>
                 </div>
             </div>

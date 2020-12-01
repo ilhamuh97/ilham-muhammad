@@ -3,8 +3,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #495867;
-    color: #f7f7ff;
+    color: #000;
+    .motto {
+        display: flex;
+        flex-flow: column;
+        text-align: center;
+        font-style: italic;
+        margin: 15px 0;
+        span{
+            padding: 5px 0;
+        }
+    }
     .about-me-container {
         display: flex;
         flex-flow: column;
@@ -23,7 +32,7 @@
             width: 200px;
             height: 200px;
             border-style: solid;
-            border-color: black;
+            border-color: #000;
             margin: 15px;
             overflow: hidden;
             transition: 0.3s;
@@ -52,24 +61,21 @@
                 margin: 0 10px;
                 width: 250px;
                 border-radius: 5px;
-                border: 1px;
+                border: 0;
+                border-top: 10px;
                 border-style: solid;
-                border-color: black;
+                border-color: #fca311;
+                background-color: #fff;
+                box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
                 padding: 5px;
                 transition: 0.2s;
-                cursor: default;
-                &:hover {
-                    border-style: solid;
-                    border-radius: 10px;
-                    box-shadow: 0 0 5px black;
-                    transform: scale(1.05);
-                    background-color: #577399;
-                }
                 p {
                     margin: 5px 0;
                 }
                 h2 {
                     margin: 5px 0 10px 0;
+                    color: #fca311;
+                    font-size: larger;
                 }
             }
         }
