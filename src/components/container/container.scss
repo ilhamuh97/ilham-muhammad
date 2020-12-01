@@ -1,5 +1,9 @@
 .container {
     position: relative;
-    max-width: 900px;
-    margin: auto;
+    background-color: #e5e5e5;
+    color: #14213d;
+    .section {
+        max-width: 900px;
+        margin: auto;
+    }
 }

@@ -6,10 +6,18 @@ class Nav extends Component {
     render() {
         return (
             <div className="nav">
-                <a href="#section1" className="nav-item">Homepage</a>
-                <a href="#section2" className="nav-item">Biodata</a>
-                <a href="#section3" className="nav-item">Studies</a>
-                <a href="#section4" className="nav-item">Skills</a>
+                <div className="link">
+                    <a href="#section1" className="nav-item">Home</a>
+                </div>
+                <div className="link">
+                    <a href="#section2" className="nav-item">Biodata</a>
+                </div>
+                <div className="link">
+                    <a href="#section3" className="nav-item">Studies</a>
+                </div>
+                <div className="link">
+                    <a href="#section4" className="nav-item">Skills</a>
+                </div>
             </div>
         )
     }

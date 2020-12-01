@@ -11,8 +11,8 @@ const Biodata = () => {
                     <div className="background-image"></div>
                 </div>
                 <div className="motto">
-                    <span>Be meaningful for others</span>
-                    <span>If you can't, then try to be!</span>
+                    <span>" Be meaningful for others</span>
+                    <span>If you can't, then try to be! "</span>
                 </div>
                 <div className="tickets">
                     <div className="ticket">
