@@ -13,27 +13,27 @@ const Biodata = () => {
                 </div>
                 <div className="tickets">
                     <div className="ticket">
-                        <h2>Born</h2>
-                        <p>On 6th June 1997</p>
-                        <p>In Jakarta, Indonesia</p>
+                        <h2>Activities</h2>
+                        <p>Lorem ipsum dolor sit amet</p>
+                        <p>consectetur adipiscing elit.</p>
                     </div>
                     <div className="ticket">
-                        <h2>Live</h2>
-                        <p>In Rhinstr.51</p>
-                        <p>Berlin, Germany</p>
+                        <h2>Skills</h2>
+                        <p>Praesent non enim convallis</p>
+                        <p>vitae sagittis urna </p>
                     </div>
                     
                 </div>
                 <div className="tickets">
                     <div className="ticket">
-                        <h2>Study</h2>
-                        <p>Univerity of Applied Sciences</p>
-                        <p>In Berlin, Germany</p>
+                        <h2>Projects</h2>
+                        <p>pharetra quis</p>
+                        <p>Nullam cursus ornare nulla</p>
                     </div>
                     <div className="ticket">
-                        <h2>Contact</h2>
-                        <p>Phone: +49 179 2851 483</p>
-                        <p>Email: ilhamuh97@gmail.com</p>
+                        <h2>Others</h2>
+                        <p>In in est id nisl vulputate</p>
+                        <p>Phasellus sapien massa</p>
                     </div>
                 </div>
             </div>

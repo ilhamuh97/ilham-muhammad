@@ -29,10 +29,18 @@ const intro = () => {
                         </div>
                         <div className="detail-wrapper">
                             <div className="left">
-                                Address
+                                Study
                             </div>
                             <div className="right">
-                                Rhinstr.51, Berlin, Germany
+                                HTW Berlin
+                            </div>
+                        </div>
+                        <div className="detail-wrapper">
+                            <div className="left">
+                                Hobby
+                            </div>
+                            <div className="right">
+                                Reading, Sport, and Programming
                             </div>
                         </div>
                         <div className="detail-wrapper">
@@ -40,15 +48,7 @@ const intro = () => {
                                 E-mail
                             </div>
                             <div className="right">
-                                ilhamuh97@gmail.com
-                            </div>
-                        </div>
-                        <div className="detail-wrapper">
-                            <div className="left">
-                                Phone
-                            </div>
-                            <div className="right">
-                                +49 179 2851 483
+                                ilhamh97@gmail.com
                             </div>
                         </div>
                     </div>
