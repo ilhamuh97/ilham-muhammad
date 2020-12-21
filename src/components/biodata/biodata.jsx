@@ -1,9 +1,27 @@
 import React from 'react';
+import Ticket from '../../UI/ticket/ticket';
 
 import './biodata.scss';
 
 //npm install --save particles-bg
 const Biodata = () => {
+    const ticketValues = [
+        {
+            key: 'prog-language', title: 'Programming Language', substances: [
+                { skillTitle: 'HTML & CSS', rating: 85 },
+                { skillTitle: 'Javascript', rating: 83 },
+                { skillTitle: 'PHP', rating: 65 },
+                { skillTitle: 'Java', rating: 80 },
+            ]
+        },
+        {
+            key: 'website', title: 'Web Development Frameworks', substances: [
+                { skillTitle: 'ReactJS', rating: 85 },
+                { skillTitle: 'Bootstrap', rating: 78 },
+                { skillTitle: 'CakePHP', rating: 60 },
+            ]
+        }
+    ]
     return (
         <div id="biodata" className="section biodata">
             <div className="about-me-container">
@@ -11,30 +29,19 @@ const Biodata = () => {
                     <span>" Be meaningful for others</span>
                     <span>If you can't, then try to be! "</span>
                 </div>
-                <div className="tickets">
-                    <div className="ticket">
-                        <h2>Activities</h2>
-                        <p>Lorem ipsum dolor sit amet</p>
-                        <p>consectetur adipiscing elit.</p>
-                    </div>
-                    <div className="ticket">
-                        <h2>Skills</h2>
-                        <p>Praesent non enim convallis</p>
-                        <p>vitae sagittis urna </p>
+                <div className="skills">
+                    <h1 className="super-title">Professional Skills</h1>
+                    <div className="tickets">
+                        <Ticket
+                            key={ticketValues[0].key}
+                            title={ticketValues[0].title}
+                            substances={ticketValues[0].substances} />
+                        <Ticket
+                            key={ticketValues[1].key}
+                            title={ticketValues[1].title}
+                            substances={ticketValues[1].substances} />
                     </div>
                     
-                </div>
-                <div className="tickets">
-                    <div className="ticket">
-                        <h2>Projects</h2>
-                        <p>pharetra quis</p>
-                        <p>Nullam cursus ornare nulla</p>
-                    </div>
-                    <div className="ticket">
-                        <h2>Others</h2>
-                        <p>In in est id nisl vulputate</p>
-                        <p>Phasellus sapien massa</p>
-                    </div>
                 </div>
             </div>
         </div>

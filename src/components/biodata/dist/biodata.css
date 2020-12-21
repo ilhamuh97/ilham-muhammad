@@ -1,0 +1,37 @@
+#biodata {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+#biodata .about-me-container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 100%;
+  padding: 0 100px;
+}
+#biodata .about-me-container .motto {
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+  font-style: italic;
+  margin: 15px 0;
+}
+#biodata .about-me-container .motto span {
+  padding: 5px 0;
+}
+#biodata .about-me-container .skills {
+  width: 100%;
+}
+#biodata .about-me-container .skills .super-title {
+  text-align: center;
+  font-weight: 300;
+}
+#biodata .about-me-container .skills .tickets {
+  display: flex;
+}
+#biodata .about-me-container .skills .tickets .ticket {
+  margin: 20px;
+}
