@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ilham-muhammad/static/css/main.47f56f46.chunk.css",
+    "main.css": "/ilham-muhammad/static/css/main.c6227273.chunk.css",
     "main.js": "/ilham-muhammad/static/js/main.dab8d99b.chunk.js",
     "main.js.map": "/ilham-muhammad/static/js/main.dab8d99b.chunk.js.map",
     "runtime-main.js": "/ilham-muhammad/static/js/runtime-main.ed45f08e.js",
@@ -8,9 +8,9 @@
     "static/js/2.0fda7218.chunk.js": "/ilham-muhammad/static/js/2.0fda7218.chunk.js",
     "static/js/2.0fda7218.chunk.js.map": "/ilham-muhammad/static/js/2.0fda7218.chunk.js.map",
     "index.html": "/ilham-muhammad/index.html",
-    "precache-manifest.fd50f455afc8c449b50fdc7372e1ff30.js": "/ilham-muhammad/precache-manifest.fd50f455afc8c449b50fdc7372e1ff30.js",
+    "precache-manifest.fbf66781f8d1ba45fd78aff5a8927138.js": "/ilham-muhammad/precache-manifest.fbf66781f8d1ba45fd78aff5a8927138.js",
     "service-worker.js": "/ilham-muhammad/service-worker.js",
-    "static/css/main.47f56f46.chunk.css.map": "/ilham-muhammad/static/css/main.47f56f46.chunk.css.map",
+    "static/css/main.c6227273.chunk.css.map": "/ilham-muhammad/static/css/main.c6227273.chunk.css.map",
     "static/js/2.0fda7218.chunk.js.LICENSE.txt": "/ilham-muhammad/static/js/2.0fda7218.chunk.js.LICENSE.txt",
     "static/media/facebook.png": "/ilham-muhammad/static/media/facebook.d651082e.png",
     "static/media/homepage.scss": "/ilham-muhammad/static/media/hero-img.2d6bfe7d.jpg",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.ed45f08e.js",
     "static/js/2.0fda7218.chunk.js",
-    "static/css/main.47f56f46.chunk.css",
+    "static/css/main.c6227273.chunk.css",
     "static/js/main.dab8d99b.chunk.js"
   ]
 }
