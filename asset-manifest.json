@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/ilham-muhammad/static/css/main.e47b846c.chunk.css",
-    "main.js": "/ilham-muhammad/static/js/main.d923cecb.chunk.js",
-    "main.js.map": "/ilham-muhammad/static/js/main.d923cecb.chunk.js.map",
+    "main.css": "/ilham-muhammad/static/css/main.ec6158e2.chunk.css",
+    "main.js": "/ilham-muhammad/static/js/main.dab8d99b.chunk.js",
+    "main.js.map": "/ilham-muhammad/static/js/main.dab8d99b.chunk.js.map",
     "runtime-main.js": "/ilham-muhammad/static/js/runtime-main.ed45f08e.js",
     "runtime-main.js.map": "/ilham-muhammad/static/js/runtime-main.ed45f08e.js.map",
     "static/js/2.0fda7218.chunk.js": "/ilham-muhammad/static/js/2.0fda7218.chunk.js",
     "static/js/2.0fda7218.chunk.js.map": "/ilham-muhammad/static/js/2.0fda7218.chunk.js.map",
     "index.html": "/ilham-muhammad/index.html",
-    "precache-manifest.7678e9efe24cf22221443e6d03af76c6.js": "/ilham-muhammad/precache-manifest.7678e9efe24cf22221443e6d03af76c6.js",
+    "precache-manifest.25708c4dba5cb2e86f2b92fb5661e4ee.js": "/ilham-muhammad/precache-manifest.25708c4dba5cb2e86f2b92fb5661e4ee.js",
     "service-worker.js": "/ilham-muhammad/service-worker.js",
-    "static/css/main.e47b846c.chunk.css.map": "/ilham-muhammad/static/css/main.e47b846c.chunk.css.map",
+    "static/css/main.ec6158e2.chunk.css.map": "/ilham-muhammad/static/css/main.ec6158e2.chunk.css.map",
     "static/js/2.0fda7218.chunk.js.LICENSE.txt": "/ilham-muhammad/static/js/2.0fda7218.chunk.js.LICENSE.txt",
     "static/media/facebook.png": "/ilham-muhammad/static/media/facebook.d651082e.png",
     "static/media/homepage.scss": "/ilham-muhammad/static/media/hero-img.2d6bfe7d.jpg",
-    "static/media/biodata.scss": "/ilham-muhammad/static/media/photoProfile2.3fc0b06e.jpeg",
+    "static/media/intro.scss": "/ilham-muhammad/static/media/photoProfile2.3fc0b06e.jpeg",
     "static/media/twitter.png": "/ilham-muhammad/static/media/twitter.439bbda1.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ed45f08e.js",
     "static/js/2.0fda7218.chunk.js",
-    "static/css/main.e47b846c.chunk.css",
-    "static/js/main.d923cecb.chunk.js"
+    "static/css/main.ec6158e2.chunk.css",
+    "static/js/main.dab8d99b.chunk.js"
   ]
 }
