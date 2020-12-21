@@ -6,7 +6,16 @@ import linkedin from '../../assets/linkedin.png';
 import './intro.scss'
 
 const intro = () => {
-
+    function getAge(dateString) {
+        var today = new Date();
+        var birthDate = new Date(dateString);
+        var age = today.getFullYear() - birthDate.getFullYear();
+        var m = today.getMonth() - birthDate.getMonth();
+        if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+            age--;
+        }
+        return age;
+    }
     return (
         <div id="intro" className="hero-content">
             <div className="info">
@@ -24,7 +33,7 @@ const intro = () => {
                                 Age
                             </div>
                             <div className="right">
-                                23
+                                {getAge("1997/06/06")}
                             </div>
                         </div>
                         <div className="detail-wrapper">
