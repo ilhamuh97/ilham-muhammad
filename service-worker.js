@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ilham-muhammad/precache-manifest.fbf66781f8d1ba45fd78aff5a8927138.js"
+  "/ilham-muhammad/precache-manifest.56703454e54c19005da25de0d22b788a.js"
 );
 
 self.addEventListener('message', (event) => {
