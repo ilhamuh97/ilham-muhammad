@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ilham-muhammad/static/css/main.82ea4170.chunk.css",
-    "main.js": "/ilham-muhammad/static/js/main.33566595.chunk.js",
-    "main.js.map": "/ilham-muhammad/static/js/main.33566595.chunk.js.map",
+    "main.css": "/ilham-muhammad/static/css/main.df34696a.chunk.css",
+    "main.js": "/ilham-muhammad/static/js/main.dbc06256.chunk.js",
+    "main.js.map": "/ilham-muhammad/static/js/main.dbc06256.chunk.js.map",
     "runtime-main.js": "/ilham-muhammad/static/js/runtime-main.ed45f08e.js",
     "runtime-main.js.map": "/ilham-muhammad/static/js/runtime-main.ed45f08e.js.map",
     "static/js/2.0fda7218.chunk.js": "/ilham-muhammad/static/js/2.0fda7218.chunk.js",
     "static/js/2.0fda7218.chunk.js.map": "/ilham-muhammad/static/js/2.0fda7218.chunk.js.map",
     "index.html": "/ilham-muhammad/index.html",
-    "precache-manifest.959414487999fbe0e7c49bb2edc41f9b.js": "/ilham-muhammad/precache-manifest.959414487999fbe0e7c49bb2edc41f9b.js",
+    "precache-manifest.b727aede185e26780867cdec181c2cb4.js": "/ilham-muhammad/precache-manifest.b727aede185e26780867cdec181c2cb4.js",
     "service-worker.js": "/ilham-muhammad/service-worker.js",
-    "static/css/main.82ea4170.chunk.css.map": "/ilham-muhammad/static/css/main.82ea4170.chunk.css.map",
+    "static/css/main.df34696a.chunk.css.map": "/ilham-muhammad/static/css/main.df34696a.chunk.css.map",
     "static/js/2.0fda7218.chunk.js.LICENSE.txt": "/ilham-muhammad/static/js/2.0fda7218.chunk.js.LICENSE.txt",
     "static/media/facebook.png": "/ilham-muhammad/static/media/facebook.d651082e.png",
     "static/media/homepage.scss": "/ilham-muhammad/static/media/hero-img.2d6bfe7d.jpg",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.ed45f08e.js",
     "static/js/2.0fda7218.chunk.js",
-    "static/css/main.82ea4170.chunk.css",
-    "static/js/main.33566595.chunk.js"
+    "static/css/main.df34696a.chunk.css",
+    "static/js/main.dbc06256.chunk.js"
   ]
 }
