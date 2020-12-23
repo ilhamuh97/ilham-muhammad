@@ -1,0 +1,49 @@
+.educations {
+    position: relative;
+    padding: 20px 0;
+
+    .super-title {
+        text-align: center;
+        font-weight: 300;
+    }
+
+    .educations-wrapper {
+        display: flex;
+        justify-content: center;
+
+        .education-wrapper {
+            margin: 20px;
+            position: relative;
+            width: 100%;
+
+            &.right {
+                margin-top: 70px;
+            }
+
+            .education {
+                background-color: #fff;
+                margin-bottom: 50px;
+                padding: 20px;
+                border: 0;
+                border-top: 5px;
+                border-style: solid;
+                border-color: #fca311;
+                margin-bottom: 25px;
+                .time-info {
+                    color: #fca311;
+                    font-weight: 900;
+                    font-size: medium;
+                }
+                h2 {
+                    margin: 8px 0;
+                    font-weight: 400;
+                }
+
+                .sector-info {
+                    font-size: small;
+                    opacity: 0.6;
+                }
+            }
+        }
+    }
+}

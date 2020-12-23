@@ -16,7 +16,7 @@ class Nav extends Component {
                     <a href="#experiences" className="nav-item">Experiences</a>
                 </div>
                 <div className="link">
-                    <a href="#education" className="nav-item">Education</a>
+                    <a href="#educations" className="nav-item">Educations</a>
                 </div>
             </div>
         )
