@@ -32,13 +32,13 @@ const educations = () => {
                     </div>
                     <div className="education">
                         <div className="time-info">
-                            2015-2016
+                            2014-2015
                         </div>
                         <div className="name">
-                            <h2>Preparatory Courses</h2>
+                            <h2>Intensive German Course</h2>
                         </div>
                         <div className="sector-info">
-                            Studienkolleg TU Berlin
+                            Euro Management Language School
                         </div>
                     </div>
                 </div>
@@ -54,16 +54,15 @@ const educations = () => {
                             Udemy
                         </div>
                     </div>
-                    
                     <div className="education">
                         <div className="time-info">
-                            2014-2015
+                            2015-2016
                         </div>
                         <div className="name">
-                            <h2>Intensive German Course</h2>
+                            <h2>Preparatory Courses</h2>
                         </div>
                         <div className="sector-info">
-                           Euro Management Language School
+                            Studienkolleg TU Berlin
                         </div>
                     </div>
                 </div>
