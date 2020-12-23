@@ -10,13 +10,13 @@ class Nav extends Component {
                     <a href="#homepage" className="nav-item">Home</a>
                 </div>
                 <div className="link">
-                    <a href="#biodata" className="nav-item">Biodata</a>
+                    <a href="#skills" className="nav-item">Skills</a>
                 </div>
                 <div className="link">
-                    <a href="#section3" className="nav-item">Studies</a>
+                    <a href="#experiences" className="nav-item">Experiences</a>
                 </div>
                 <div className="link">
-                    <a href="#section4" className="nav-item">Skills</a>
+                    <a href="#education" className="nav-item">Education</a>
                 </div>
             </div>
         )

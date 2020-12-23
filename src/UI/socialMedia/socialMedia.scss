@@ -1,0 +1,33 @@
+.profile-search {
+        background-color: #fca311;
+    .social-media {
+        display: flex;
+        justify-content: center;
+
+        a {
+            display: inline-block;
+            margin: 5px 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .facebook {
+            img {
+                width: 23px;
+            }
+        }
+
+        .twitter {
+            img {
+                width: 35px;
+            }
+        }
+
+        .linkedin {
+            img {
+                width: 25px;
+            }
+        }
+    }
+}
