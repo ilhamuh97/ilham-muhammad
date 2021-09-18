@@ -1,7 +1,7 @@
 {
   "name": "cv-template",
   "version": "0.1.0",
-  "homepage": "https://ilhamuh97.github.io/cv-template/",
+  "homepage": "https://ilham-cv-template.herokuapp.com/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
