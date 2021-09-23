@@ -1,12 +1,48 @@
-.welcome-message {
-  font-family: 'Montserrat', sans-serif;
-  color: #113F67;
-  padding: 3rem 0;
-  .name{
-    font-size: 3rem;
-    font-weight: bold;
+.hero{
+  .container{
+    .welcome-message{
+      font-family: 'Montserrat', sans-serif;
+      color: #113F67;
+      padding: 3rem 0;
+      margin: auto;
+      text-align: center;
+      width: 50%;
+      .name{
+        font-size: 2.5rem;
+        font-weight: bold;
+        padding: 1rem;
+      }
+      .short-story{
+        font-weight: 300;
+      }
+    }
+    .social-media{
+      padding: 2rem;
+      display: flex;
+      justify-content: center;
+      .social-icon{
+        font-size: 1.5rem;
+        padding: 0.8rem;
+        color: #113F67;
+        margin: 5px;
+      }
+    }
   }
-  .profession{
-    font-size: 2rem;
+}
+
+//mobile or tablet
+@media only screen and (max-width: 1023px) {
+  .hero{
+    .container{
+      .welcome-message {
+        width: 100%;
+        .name{
+          font-size: 2rem;
+          padding: .8rem;
+        }
+        .short-story{
+        }
+      }
+    }
   }
 }

@@ -6,13 +6,16 @@
     margin: auto;
     padding: 0 5%;
     box-sizing: border-box;
+    color: #113F67;
 }
 a{
     text-decoration: none;
 }
 .main-page{
-    background-color: #CCF2F4;
+    background: rgb(204,242,244);
+    background: linear-gradient(0deg, rgba(204,242,244,1) 10%, rgba(255,255,255,0) 100%);
 }
+
 @media only screen and (max-width: 1440px) {
     .container{
         max-width: 1024px;
@@ -25,6 +28,6 @@ a{
 }
 @media only screen and (max-width: 768px) {
     .container{
-        max-width: 80%;
+        max-width: 90%;
     }
 }

@@ -1,0 +1,57 @@
+.profile{
+  height: 100vh;
+  box-sizing: border-box;
+  background: rgb(204,242,244);
+  background: linear-gradient(180deg, rgba(204,242,244,1) 30%, rgba(204,242,244,0) 100%);
+  padding: 3rem 0;
+  .detail-me-holder{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 0;
+    .img-holder{
+      width: 50%;
+      .my-pic{
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .title{
+      font-family: 'Montserrat', sans-serif;
+      color: #113F67;
+      font-size: 2em;
+      font-weight: 200;
+      text-align: center;
+      padding: 3rem;
+    }
+  }
+}
+
+//mobile or tablet
+@media only screen and (max-width: 1023px) {
+  .profile{
+    .detail-me-holder{
+      .title{
+        font-size: 1.5rem;
+        text-align: center;
+        padding: 1rem;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 767px) {
+  .profile{
+    .detail-me-holder{
+      flex-direction: column;
+      .img-holder{
+        width: 90%;
+      }
+      .title{
+        font-size: 1.5rem;
+        text-align: center;
+        padding: 1rem;
+      }
+    }
+  }
+}
