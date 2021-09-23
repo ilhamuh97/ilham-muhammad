@@ -13,7 +13,7 @@ a{
 }
 .main-page{
     background: rgb(204,242,244);
-    background: linear-gradient(0deg, rgba(204,242,244,1) 10%, rgba(255,255,255,0) 100%);
+    background: linear-gradient(0deg, rgba(204,242,244,1) 0%, rgba(255,255,255,0) 100%);
 }
 
 @media only screen and (max-width: 1440px) {

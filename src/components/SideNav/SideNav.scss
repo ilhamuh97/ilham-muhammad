@@ -13,8 +13,10 @@
   overflow-y: scroll;
   .links{
     display: flex;
-    align-items: center;
     flex-direction: column;
+    overflow-y: scroll;
+    margin: auto;
+    padding: 3rem 0;
     .link{
       color: #87C0CD;
       padding: .5rem;
