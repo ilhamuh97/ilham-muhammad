@@ -24,13 +24,13 @@ function App() {
 
     const openNav = () => {
         setShowNavbar(true);
-        document.body.classList.toggle('lock-scroll');
+        document.body.classList.add('lock-scroll');
         console.log(showNavbar);
     }
 
     const closeNav = () => {
         setShowNavbar(false);
-        document.body.classList.toggle('lock-scroll');
+        document.body.classList.remove('lock-scroll');
         console.log(showNavbar);
     }
 
