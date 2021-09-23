@@ -1,3 +1,47 @@
 .nav{
-  background-color: blueviolet;
+  padding: 2% 0;
+  .nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    .wrapper{
+      display: flex;
+      align-items: center;
+      .logo {
+        font-family: 'Bonheur Royale', cursive;
+        font-size: 5rem;
+        font-weight: bold;
+        color: #113F67;
+      }
+      .link{
+        font-family: 'Montserrat', sans-serif;
+        color: #87C0CD;
+        padding: .5rem;
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+        margin: 1rem;
+        text-align: center;
+        transition: color .3s;
+        &:hover{
+          color: #113F67;
+        }
+      }
+      .bar-icon{
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+        color: #113F67;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .nav{
+    .nav-content {
+      .wrapper{
+        .logo{
+          font-size: 3rem;
+        }
+      }
+    }
+  }
 }

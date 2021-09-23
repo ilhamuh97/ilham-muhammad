@@ -1,3 +1,12 @@
-.hero{
-  background-color: #61dafb;
+.welcome-message {
+  font-family: 'Montserrat', sans-serif;
+  color: #113F67;
+  padding: 3rem 0;
+  .name{
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  .profession{
+    font-size: 2rem;
+  }
 }
