@@ -4,6 +4,7 @@ import Hero from "./components/Hero/Hero";
 import Nav from "./components/Nav/Nav";
 import SideNav from "./components/SideNav/SideNav";
 import Profile from "./components/Profile/Profile";
+import Footer from "./components/Footer/Footer";
 import {useDispatch} from 'react-redux';
 import {windowResize} from './store/reducers/app';
 
@@ -36,16 +37,15 @@ function App() {
 
   return (
     <div className="App">
-        <div id="main" className="main-page">
-            <Nav openNav={openNav}/>
-            <Hero/>
-        </div>
+        <Nav openNav={openNav}/>
+        <Hero/>
         {
             showNavbar ? (
                 <SideNav closeNav={closeNav}/>
             ) : null
         }
         <Profile/>
+        <Footer/>
     </div>
   );
 }

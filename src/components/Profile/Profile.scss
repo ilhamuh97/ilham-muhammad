@@ -1,8 +1,6 @@
 .profile{
-  height: 100vh;
   box-sizing: border-box;
   background: rgb(204,242,244);
-  background: linear-gradient(180deg, rgba(204,242,244,1) 30%, rgba(204,242,244,0) 100%);
   padding: 3rem 0;
   .detail-me-holder{
     display: flex;
@@ -33,7 +31,7 @@
     .detail-me-holder{
       .title{
         font-size: 1.5rem;
-        text-align: center;
+        text-align: left;
         padding: 1rem;
       }
     }
@@ -44,12 +42,13 @@
     .detail-me-holder{
       flex-direction: column;
       .img-holder{
-        width: 90%;
+        width: 100%;
       }
       .title{
         font-size: 1.5rem;
-        text-align: center;
+        text-align: left;
         padding: 1rem;
+        width: 100%;
       }
     }
   }
