@@ -10,8 +10,9 @@ const Profile = () => {
                     <div className="img-holder">
                         <img className="my-pic" src={MyPic} alt="pic-of-me"/>
                     </div>
-                    <div className="title">
-                        a content writer
+                    <div className="text">
+                        <span>Anon Nymus</span> <br/>
+                        a content writer.
                     </div>
                 </div>
             </div>
