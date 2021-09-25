@@ -1,9 +1,9 @@
 import './App.css';
 import React, {useEffect, useState} from 'react';
-import Hero from "./components/Hero/Hero";
 import Nav from "./components/Nav/Nav";
 import SideNav from "./components/SideNav/SideNav";
-import Profile from "./components/Profile/Profile";
+import Main from "./components/Main/Main";
+import Skill from "./components/Skill/Skill";
 import Footer from "./components/Footer/Footer";
 import {useDispatch} from 'react-redux';
 import {windowResize} from './store/reducers/app';
@@ -38,13 +38,13 @@ function App() {
   return (
     <div className="App">
         <Nav openNav={openNav}/>
-        <Hero/>
         {
             showNavbar ? (
                 <SideNav closeNav={closeNav}/>
             ) : null
         }
-        <Profile/>
+        <Main/>
+        <Skill/>
         <Footer/>
     </div>
   );
