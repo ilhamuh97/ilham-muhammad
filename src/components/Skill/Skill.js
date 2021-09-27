@@ -7,7 +7,7 @@ const Skill = () => {
     const skillList = [
         {
             id: '1',
-            type:'Key Skills',
+            type:'Professional Skills',
             list: [
                 {
                     id: '11',
