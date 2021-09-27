@@ -3,7 +3,7 @@ import './SkillCollection.scss';
 import SkillCard from "../SkillCard/SkillCard";
 
 const SkillCollection = ({list}) => {
-    const [show, setShow] = useState(false);
+    const [show, setShow] = useState(true);
     const limit = 5;
 
     const openMoreSkill = () => {
@@ -11,18 +11,17 @@ const SkillCollection = ({list}) => {
         console.log(show);
     }
     const skillListWrapper = list.map((skill, i) => {
+        let result
         if(!show){
             if(i+1<limit){
-                return(
-                    <SkillCard className="card" title={skill.title}/>
-                )
+                result = <SkillCard key={skill.id} className="card" title={skill.title}/>
             }
         }else{
-            return(
-                <SkillCard className="card" title={skill.title}/>
-            )
+            result = <SkillCard key={skill.id} className="card" title={skill.title}/>
         }
-
+        return(
+            result
+        )
     })
 
     return (

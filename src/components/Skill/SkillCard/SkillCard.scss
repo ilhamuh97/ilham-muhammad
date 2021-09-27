@@ -27,11 +27,12 @@
   }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 424px) {
   .card{
     max-width: calc(100% - 2rem);
     flex-basis: 100%;
     .skill-name{
+      padding: 2rem;
       font-size: 1rem;
     }
   }

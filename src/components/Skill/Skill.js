@@ -60,7 +60,7 @@ const Skill = () => {
     ];
     const options = skillList.map((list,i) => {
         return(
-            <option value={i}>
+            <option key={list.id} value={i}>
                 {list.type}
             </option>
         )

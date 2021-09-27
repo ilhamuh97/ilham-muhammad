@@ -44,9 +44,12 @@
 }
 
 @media only screen and (max-width: 767px) {
-  .button-wrapper{
-    .show-more-skill-btn{
-      width: 100%;
+  .skill-collection{
+    .button-wrapper{
+      .show-more-skill-btn{
+        width: 100%;
+        margin: 1rem 0;
+      }
     }
   }
 }
