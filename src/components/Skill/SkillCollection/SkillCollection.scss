@@ -1,0 +1,52 @@
+.skill-collection{
+  padding: 1rem 0;
+  .skill-title{
+    padding: 3px 5px;
+    border-left: 3px solid #113F67;
+  }
+  .card-deck{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    margin: 0 -1rem;
+
+  }
+  .button-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .show-more-skill-btn{
+      border-radius: 5px;
+      margin: 1rem;
+      padding: 1rem;
+      cursor: pointer;
+      border: 1px solid #113F67;
+      transition: background-color 0.3s;
+      text-align: center;
+      &.show{
+        background-color: transparent;
+        color: #113F67;
+      }
+      &.not-show{
+        background-color: #113F67;
+        color: #F6F5F5;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  .skill-collection {
+    .skill-title{
+      font-size: 1rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .button-wrapper{
+    .show-more-skill-btn{
+      width: 100%;
+    }
+  }
+}

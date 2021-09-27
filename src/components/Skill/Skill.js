@@ -1,60 +1,75 @@
 import React, {useState} from 'react';
-import SkillCard from "./SkillCard/SkillCard";
+import SkillCollection from "./SkillCollection/SkillCollection";
 import './Skill.scss';
 
 const Skill = () => {
-    const [show, setShow] = useState(false);
-    const openMoreSkill = () => {
-        setShow(!show);
-        console.log(show);
-    }
-
+    const [selectedValue, setSelectedValue] = useState(0)
     const skillList = [
         {
             id: '1',
-            title: 'Story Telling',
+            type:'Key Skills',
+            list: [
+                {
+                    id: '11',
+                    title: 'Story Telling',
+                },
+                {
+                    id: '12',
+                    title: 'Public Speaking',
+                },
+                {
+                    id: '13',
+                    title: 'Content Writing',
+                },
+                {
+                    id: '14',
+                    title: 'Website Designing',
+                },
+                {
+                    id: '15',
+                    title: 'Poster Designing',
+                },
+                {
+                    id: '16',
+                    title: 'Project Managing',
+                },
+                {
+                    id: '17',
+                    title: 'Coffee Brewing',
+                },
+            ]
         },
         {
             id: '2',
-            title: 'Public Speaking',
-        },
-        {
-            id: '3',
-            title: 'Content Writing',
-        },
-        {
-            id: '4',
-            title: 'Website Designing',
-        },
-        {
-            id: '5',
-            title: 'Poster Designing',
-        },
-        {
-            id: '6',
-            title: 'Project Managing',
-        },
-        {
-            id: '8',
-            title: 'Coffee Brewing',
-        },
-    ];
-
-    const skillListWrapper = skillList.map((skill, i) => {
-        const limit = 5;
-        if(!show){
-            if(i+1<limit){
-                return(
-                    <SkillCard className="card" title={skill.title}/>
-                )
-            }
-        }else{
-            return(
-                <SkillCard className="card" title={skill.title}/>
-            )
+            type:'Software Skills',
+            list: [
+                {
+                    id: '21',
+                    title: 'Adobe Photoshop',
+                },
+                {
+                    id: '22',
+                    title: 'Microsoft Word',
+                },
+                {
+                    id: '23',
+                    title: 'Power Point',
+                }
+            ]
         }
-
+    ];
+    const options = skillList.map((list,i) => {
+        return(
+            <option value={i}>
+                {list.type}
+            </option>
+        )
     })
+
+    const handleChange = (e) => {
+        setSelectedValue(e.target.value);
+        console.log(e.target.value);
+    }
 
     return (
         <div id="skill" className="skill">
@@ -62,22 +77,20 @@ const Skill = () => {
                 <h1 className="title">
                     <span>S</span>kills
                 </h1>
-                <div className="skill-collection">
-                    <h2 className="skill-title">
-                        Key Skill
-                    </h2>
-                    <div className="card-deck">
+                <div className="select-wrapper">
+                    <select
+                        className="skill-selector"
+                        onChange={(e) => handleChange(e)}
+                    >
                         {
-                            skillListWrapper
+                            options
                         }
-                    </div>
-                    <div className="button-wrapper">
-                        <div className={`show-more-skill-btn ${show?'show':'not-show'}`} onClick={() => openMoreSkill()}>
-                            {show?'Show Less':'Show More'}
-                        </div>
-                    </div>
+                    </select>
                 </div>
-            </div>
+                <SkillCollection
+                        list={skillList[selectedValue].list}
+                    />
+                </div>
         </div>
     );
 };
