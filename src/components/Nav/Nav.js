@@ -21,7 +21,7 @@ const Nav = ({openNav}) => {
                         ) : (
                             <div className="wrapper links">
                                 <a className="link" href="#main">Home</a>
-                                <a className="link" href="/">Skills</a>
+                                <a className="link" href="/#skill">Skills</a>
                                 <a className="link" href="/">Experiences</a>
                                 <a className="link" href="/">Educations</a>
                                 <a className="link" href="/">Galleries</a>
