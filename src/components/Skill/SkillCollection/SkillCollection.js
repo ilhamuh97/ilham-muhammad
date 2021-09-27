@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
 import './SkillCollection.scss';
-import SkillCard from "../SkillCard/SkillCard";
+import SkillCard from "./SkillCard/SkillCard";
 
 const SkillCollection = ({list}) => {
-    const [show, setShow] = useState(true);
+    const [show, setShow] = useState(false);
     const limit = 5;
 
     const openMoreSkill = () => {
