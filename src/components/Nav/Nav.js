@@ -5,9 +5,10 @@ import { useSelector } from 'react-redux';
 const Nav = ({openNav}) => {
     const isMobile = useSelector((state) => state.app.device.isMobile);
     const isTablet = useSelector((state) => state.app.device.isTablet);
+    const scrollY = useSelector((state) => state.app.device.scrolled);
 
     return (
-        <nav className="nav">
+        <nav className={`nav${scrollY > 70 ? ' scroll-70' : ''}`}>
             <div className="container">
                 <div className="nav-content">
                     <div className="wrapper">

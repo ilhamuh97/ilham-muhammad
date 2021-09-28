@@ -1,6 +1,12 @@
 @import "../../styles/styles";
 .nav{
-  padding: 1.5rem 0;
+  padding: 1rem 0;
+  border-top: 3px solid $background-third-color;
+  position: fixed;
+  width: 100%;
+  background-color: $background-color;
+  transition: padding-top .5s, padding-bottom .5s, box-shadow .5s;
+  top: 0;
   .nav-content {
     display: flex;
     justify-content: space-between;
@@ -12,13 +18,13 @@
         font-family: 'Bonheur Royale', cursive;
         font-size: 5rem;
         font-weight: bold;
+        transition: font-size .5s;
       }
       .link{
         font-family: 'Montserrat', sans-serif;
         color: $text-second-color;
         padding: .5rem;
         font-size: 1rem;
-        line-height: 1.5rem;
         margin: 1rem .5rem;
         text-align: center;
         transition: color .3s;
@@ -29,6 +35,18 @@
       .bar-icon{
         font-size: 1.5rem;
         line-height: 1.5rem;
+        transition: font-size .5s;
+      }
+    }
+  }
+  &.scroll-70{
+    padding: .3rem 0;
+    box-shadow: rgb(68 68 68 / 20%) 0 0 20px;
+    .nav-content{
+      .wrapper{
+        .logo{
+          font-size: 3rem;
+        }
       }
     }
   }
@@ -37,11 +55,22 @@
 //mobile or tablet
 @media only screen and (max-width: 1023px) {
   .nav{
-    padding: 2rem 0;
     .nav-content {
       .wrapper{
         .logo{
           font-size: 3rem;
+        }
+      }
+    }
+    &.scroll-70{
+      .nav-content{
+        .wrapper{
+          .logo{
+            font-size: 2rem;
+          }
+        }
+        .bar-icon{
+          font-size: 1rem;
         }
       }
     }

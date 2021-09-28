@@ -6,7 +6,7 @@ import Skill from "./components/Skill/Skill";
 import Footer from "./components/Footer/Footer";
 import Separator from "./components/Separator/Separator";
 import {useDispatch} from 'react-redux';
-import {windowResize} from './store/reducers/app';
+import {windowResize, windowScroll} from './store/reducers/app';
 
 import './App.scss';
 
@@ -18,10 +18,16 @@ function App() {
         const handleResize = () => {
             dispatch(windowResize());
         };
+        const onScroll = () => {
+            dispatch(windowScroll());
+        };
         window.addEventListener("resize", handleResize);
+        window.addEventListener("scroll", onScroll);
         handleResize();
+        onScroll();
         return () => {
             window.removeEventListener("resize", handleResize);
+            window.removeEventListener("scroll", onScroll);
         }
     }, [dispatch]);
 

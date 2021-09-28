@@ -27,9 +27,16 @@ export const appSlice = createSlice({
             state.device.windowHeight = window.innerHeight;
             state.device.scrolled = window.scrollY;
         },
+        windowScroll: (state) => {
+            // Redux Toolkit allows us to write "mutating" logic in reducers. It
+            // doesn't actually mutate the state because it uses the Immer library,
+            // which detects changes to a "draft state" and produces a brand new
+            // immutable state based off those changes
+            state.device.scrolled = window.scrollY;
+        },
     },
 })
 
 // Action creators are generated for each case reducer function
-export const { windowResize} = appSlice.actions
+export const { windowResize,  windowScroll} = appSlice.actions
 export default appSlice.reducer;
