@@ -1,17 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap');
+@import "./styles/styles";
 .container{
     max-width: 1440px;
     width: 100%;
     margin: auto;
     padding: 0 5%;
     box-sizing: border-box;
-    color: #113F67;
+    color: $text-color;
 }
 a{
     text-decoration: none;
+    color: $text-color;
 }
-
 
 @media only screen and (max-width: 1440px) {
     .container{

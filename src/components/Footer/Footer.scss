@@ -1,9 +1,10 @@
+@import "../../styles/styles";
 .footer{
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   padding: 2rem 0;
-  background-color: #1687A7;
+  background-color: $background-third-color;
   .text{
-    color: #87C0CD;
+    color: $text-second-color;
   }
 }

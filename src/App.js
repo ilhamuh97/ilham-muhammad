@@ -1,12 +1,14 @@
-import './App.css';
 import React, {useEffect, useState} from 'react';
 import Nav from "./components/Nav/Nav";
 import SideNav from "./components/SideNav/SideNav";
 import Main from "./components/Main/Main";
 import Skill from "./components/Skill/Skill";
 import Footer from "./components/Footer/Footer";
+import Separator from "./components/Separator/Separator";
 import {useDispatch} from 'react-redux';
 import {windowResize} from './store/reducers/app';
+
+import './App.scss';
 
 function App() {
     const dispatch = useDispatch();
@@ -41,9 +43,10 @@ function App() {
         {
             showNavbar ? (
                 <SideNav closeNav={closeNav}/>
-            ) : null
+            ) : ''
         }
         <Main/>
+        <Separator/>
         <Skill/>
         <Footer/>
     </div>

@@ -75,7 +75,7 @@ const Skill = () => {
         <div id="skill" className="skill">
             <div className="container">
                 <h1 className="title">
-                    <span>S</span>kills
+                    Skills
                 </h1>
                 <div className="select-wrapper">
                     <select

@@ -1,8 +1,8 @@
+@import "../../styles/styles";
 .hero{
   padding: 3rem 0;
   .welcome-message{
     font-family: 'Montserrat', sans-serif;
-    color: #113F67;
     padding: 3rem 0;
     margin: auto;
     text-align: center;
@@ -22,7 +22,6 @@
     .social-icon{
       font-size: 1.5rem;
       padding: 0.8rem;
-      color: #113F67;
       margin: 5px;
     }
   }
