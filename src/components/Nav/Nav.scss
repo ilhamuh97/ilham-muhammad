@@ -1,11 +1,10 @@
 @import "../../styles/styles";
 .nav{
   padding: 1rem 0;
-  border-top: 3px solid $background-third-color;
+  border-top: 2px solid $background-third-color;
   position: fixed;
   width: 100%;
-  background-color: $background-color;
-  transition: padding-top .5s, padding-bottom .5s, box-shadow .5s;
+  transition: padding-top .5s, padding-bottom .5s, box-shadow .5s, background-color .5s;
   .nav-content {
     display: flex;
     justify-content: space-between;
@@ -41,6 +40,7 @@
   &.scroll-70{
     padding: .3rem 0;
     box-shadow: rgb(68 68 68 / 20%) 0 0 20px;
+    background-color: #F6F5F5;
     .nav-content{
       .wrapper{
         .logo{
@@ -69,7 +69,7 @@
           }
         }
         .bar-icon{
-          font-size: 1rem;
+          font-size: 1.3rem;
         }
       }
     }
