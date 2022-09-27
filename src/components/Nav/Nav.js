@@ -2,7 +2,7 @@ import React from 'react';
 import './Nav.scss';
 import { useSelector } from 'react-redux';
 
-const Nav = ({openNav}) => {
+const Nav = ({ openNav }) => {
     const isMobile = useSelector((state) => state.app.device.isMobile);
     const isTablet = useSelector((state) => state.app.device.isTablet);
     const scrollY = useSelector((state) => state.app.device.scrolled);
@@ -17,15 +17,15 @@ const Nav = ({openNav}) => {
                     {
                         isMobile || isTablet ? (
                             <div className="wrapper">
-                                <i onClick={() => openNav()} className="fas fa-bars bar-icon"/>
+                                <i onClick={() => openNav()} className="fas fa-bars bar-icon" />
                             </div>
                         ) : (
                             <div className="wrapper links">
                                 <a className="link" href="#main">Home</a>
                                 <a className="link" href="/#skill">Skills</a>
-                                <a className="link" href="/">Experiences</a>
-                                <a className="link" href="/">Educations</a>
-                                <a className="link" href="/">Galleries</a>
+                                <a className="link" href="#experience">Experiences</a>
+                                <a className="link" href="#education">Educations</a>
+                                <a className="link" href="#project">Projects</a>
                             </div>
                         )
                     }
