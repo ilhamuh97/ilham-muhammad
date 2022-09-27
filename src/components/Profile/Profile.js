@@ -5,7 +5,7 @@ import './Profile.scss';
 const Profile = () => {
     const profileText = {
         name: "Ilham Muhammad",
-        role: "a Frontend Developer"
+        role: "a frontend developer"
     }
     return (
         <div className="profile">
