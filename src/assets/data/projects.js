@@ -24,7 +24,7 @@ export const projectList =
             description: 'This is a Monster Slayer game website. You have to defeat a monster to win the game, and you can heal yourself to gain your health. This project aims to learn Vue JS.',
             techStack: ['Vue.js'],
             source: [{
-                url: 'ilhamuh97.github.io/learn-vue/',
+                url: 'https://ilhamuh97.github.io/learn-vue/',
                 text: 'Monster Slayer'
             }],
             images: []
