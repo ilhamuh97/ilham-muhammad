@@ -12,7 +12,7 @@ const Nav = ({ openNav }) => {
             <div className="container">
                 <div className="nav-content">
                     <div className="wrapper">
-                        <a href="/" className="logo">Anon</a>
+                        <a href="/" className="logo">Ilham</a>
                     </div>
                     {
                         isMobile || isTablet ? (
@@ -22,7 +22,7 @@ const Nav = ({ openNav }) => {
                         ) : (
                             <div className="wrapper links">
                                 <a className="link" href="#main">Home</a>
-                                <a className="link" href="/#skill">Skills</a>
+                                <a className="link" href="/#project">Projects</a>
                                 <a className="link" href="#experience">Experiences</a>
                                 <a className="link" href="#education">Educations</a>
                                 <a className="link" href="#project">Projects</a>

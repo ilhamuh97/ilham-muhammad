@@ -1,9 +1,5 @@
-.skill-collection{
+.project-collection{
   padding: 1rem 0;
-  .skill-title{
-    padding: 3px 5px;
-    border-left: 3px solid #113F67;
-  }
   .card-deck{
     flex-wrap: wrap;
     display: flex;
@@ -15,7 +11,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    .show-more-skill-btn{
+    .show-more-project-btn{
       border-radius: 5px;
       margin: 1rem;
       padding: 1rem;
@@ -36,17 +32,17 @@
 }
 
 @media only screen and (max-width: 1023px) {
-  .skill-collection {
-    .skill-title{
+  .project-collection {
+    .project-title{
       font-size: 1rem;
     }
   }
 }
 
 @media only screen and (max-width: 767px) {
-  .skill-collection{
+  .project-collection{
     .button-wrapper{
-      .show-more-skill-btn{
+      .show-more-project-btn{
         width: 100%;
         margin: 1rem 0;
       }

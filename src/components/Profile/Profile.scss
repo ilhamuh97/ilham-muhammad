@@ -15,7 +15,7 @@
     }
     .text{
       font-family: 'Montserrat', sans-serif;
-      font-size: 2em;
+      font-size: 2rem;
       font-weight: 200;
       padding: 3rem;
       span{
@@ -29,7 +29,7 @@
 }
 
 //mobile or tablet
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1024px) {
   .profile{
     .detail-me-holder{
       .text{
@@ -40,7 +40,7 @@
     }
   }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   .profile{
     .detail-me-holder{
       flex-direction: column;
@@ -48,10 +48,18 @@
         width: 100%;
       }
       .text{
-        font-size: 1.5rem;
-        text-align: left;
-        padding: 1rem;
+        font-size: 1.5em;
         width: 100%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .profile{
+    .detail-me-holder{
+      .text{
+        font-size: 1.3rem;
       }
     }
   }
