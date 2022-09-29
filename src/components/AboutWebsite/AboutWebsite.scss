@@ -1,4 +1,6 @@
+@import "../../styles/styles";
 .about-website{
+    font-family: 'Montserrat', sans-serif;
     padding: 10% 5%;
     .about-website-link, .about-website-link>div {
         display: flex;
@@ -7,6 +9,7 @@
         align-items: center;
         width: fit-content;
         margin: 0 auto;
+        gap: 10px;
     }
     .text{
         text-align: center;
@@ -17,10 +20,12 @@
             transition: .3s;
             display: flex;
             align-items: center;
+            text-decoration: underline transparent;
+
         }
         &:hover{
             span{
-                border-color: black;
+                text-decoration-color: $text-color;
             }
         }
     }

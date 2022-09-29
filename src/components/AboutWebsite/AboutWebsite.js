@@ -9,7 +9,7 @@ const AboutWebsite = () => {
             <div className="container">
                 <a className="about-website-link" href="https://github.com/ilhamuh97/cv-template" target="_blank" rel="noopener noreferrer">
                     <div className="text">
-                        <span >
+                        <span>
                             This website was created using React.
                         </span>
                         <span>
