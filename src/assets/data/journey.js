@@ -2,12 +2,14 @@ export const journey = [
     {
         type: "Study",
         title: "University of Applied Science Berlin, Germany",
-        major: "International Media Computing (M.Sc)",
+        url: "https://imi-master.htw-berlin.de/",
+        major: "International Media and Computing (M.Sc)",
         year: "October 2021-present",
     },
     {
         type: "work",
         title: "i-ways sales solutions GmbH",
+        url: "https://i-ways.net/",
         role: "Frontend Developer",
         typeOfJob: "Intern and Working Student",
         year: "April 2020- March 2022",
@@ -39,7 +41,8 @@ export const journey = [
 
         type: "Study",
         title: "University of Applied Science Berlin, Germany",
-        major: "International Media Computing (B.Sc)",
+        url: "https://imi-bachelor.htw-berlin.de/",
+        major: "International Media and Computing (B.Sc)",
         year: "2015- 2021",
     },
 ]
