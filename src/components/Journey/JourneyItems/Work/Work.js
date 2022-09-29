@@ -4,7 +4,9 @@ const Work = ({ item, i }) => {
     return (
         <div key={i} className="journey-item-work">
             <h3 className="journey-item-title">
-                <a href={item.url} target="_blank" rel="noopener noreferrer">{item.title}</a>
+                <a href={item.url} target="_blank" rel="noopener noreferrer">
+                    {item.title}
+                </a>
             </h3>
             <span className="journey-item-year">
                 {item.role} {item.typeOfJob}, {item.year}
