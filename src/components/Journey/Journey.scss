@@ -1,0 +1,17 @@
+@import "../../styles/styles";
+.journey{
+  color: $text-color;
+  padding: 0 0 3rem;
+  font-family: "Montserrat", sans-serif;
+  margin-top: -20%;
+  .container{
+    width: fit-content;
+    margin: 0 auto;
+    padding-top: 5rem;
+  }
+  .title{
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+  }
+}

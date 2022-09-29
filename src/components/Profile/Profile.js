@@ -1,23 +1,21 @@
 import React from 'react';
-import MyPic from '../../assets/images/anon-img.jpeg';
+import MyPic from '../../assets/images/ilham-muhammad.jpeg';
+import { profileText } from '../../assets/data/profile';
 import './Profile.scss';
 
 const Profile = () => {
-    const profileText = {
-        name: "Ilham Muhammad",
-        role: "a frontend developer"
-    }
+
     return (
         <div className="profile">
             <div className="detail-me-holder">
                 <div className="img-holder">
-                    <img className="my-pic" src={MyPic} alt="pic-of-me" />
+                    <img className="my-pic" src={MyPic} alt="Ilham Muhammad" />
                 </div>
-                <div className="text">
+                <p className="text">
                     <span>{profileText.name}</span>
                     <br />
                     {profileText.role}
-                </div>
+                </p>
             </div>
         </div>
     );

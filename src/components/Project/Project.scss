@@ -1,10 +1,9 @@
 @import "../../styles/styles";
 .project{
   color: $text-color;
-  background-color: $background-color;
-  padding: 0 0 3rem;
+  background-color: $background-fifth-color;
+  padding: 3rem 0 3rem;
   font-family: "Montserrat", sans-serif;
-  margin-top: -3rem;
   .title{
     font-size: 1.5rem;
     font-weight: 500;

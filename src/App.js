@@ -3,6 +3,7 @@ import Nav from "./components/Nav/Nav";
 import SideNav from "./components/SideNav/SideNav";
 import Main from "./components/Main/Main";
 import Project from "./components/Project/Project";
+import Journey from './components/Journey/Journey';
 import Footer from "./components/Footer/Footer";
 import Separator from "./components/Separator/Separator";
 import { useDispatch } from 'react-redux';
@@ -34,13 +35,11 @@ function App() {
     const openNav = () => {
         setShowNavbar(true);
         document.body.classList.add('lock-scroll');
-        console.log(showNavbar);
     }
 
     const closeNav = () => {
         setShowNavbar(false);
         document.body.classList.remove('lock-scroll');
-        console.log(showNavbar);
     }
 
     return (
@@ -53,6 +52,7 @@ function App() {
             }
             <Main />
             <Separator />
+            <Journey />
             <Project />
             <Footer />
         </div>

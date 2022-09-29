@@ -26,15 +26,12 @@
       margin: 1rem;
       text-align: center;
     }
-    .close{
-      padding: .5rem 1rem;
-      font-size: 1.2rem;
-      line-height: 1.5rem;
-      margin: 1rem;
-      text-align: center;
-      color: $text-second-color;
-      background-color: $background-fourth-color;
-      border-radius: 30px;
-    }
   }
+  .close{
+      position: absolute;
+      top: 2rem;
+      right: 10%;
+      color: $text-second-color;
+      font-size: 1.2rem;
+    }
 }

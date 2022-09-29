@@ -1,5 +1,6 @@
 import React from 'react';
 import './Hero.scss';
+import { GrMail } from 'react-icons/gr';
 
 const Hero = () => {
     const heroText = {
@@ -9,22 +10,25 @@ const Hero = () => {
     return (
         <header className="hero">
             <div className="welcome-message">
-                <div className="name">
+                <h1 className="name">
                     {heroText.name}
-                </div>
-                <div className="short-story">
+                </h1>
+                <p className="short-story">
                     {heroText.shortStory}
-                </div>
+                </p>
             </div>
             <div className="social-media">
-                <a className="social-icon" href="https://www.instagram.com/">
+                <a className="social-icon" href="https://www.instagram.com/ilhamuh97" target="_blank" rel="noopener noreferrer">
                     <i className="fab fa-instagram" />
                 </a>
-                <a className="social-icon" href="https://www.facebook.com/">
-                    <i className="fab fa-facebook" />
+                <a className="social-icon" href="https://www.linkedin.com/in/ilhammuhammad-735b2b187" target="_blank" rel="noopener noreferrer">
+                    <i className="fab fa-linkedin" />
                 </a>
-                <a className="social-icon" href="https://twitter.com/">
-                    <i className="fab fa-twitter" />
+                <a className="social-icon" href="https://github.com/ilhamuh97" target="_blank" rel="noopener noreferrer">
+                    <i className="fab fa-github" />
+                </a>
+                <a className="social-icon" href="mailto:ilhamuh97@gmail.com">
+                    <GrMail />
                 </a>
             </div>
         </header>

@@ -1,0 +1,45 @@
+@import "../../../styles/styles";
+.journey-items{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem 0;
+    .journey-item{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .vl {
+        border-left: 2px solid $background-fourth-color;
+        height: 3rem;
+        margin: auto;
+    }
+    .journey-item-title{
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin:0.2rem 0;
+    }
+    .journey-item-work, .journey-item-study{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .journey-item-year{
+        color: #1687A7;
+    }
+    .journey-projects{
+    display: flex;
+    gap: 0.3rem;
+    flex-wrap: wrap;
+        .journey-project{
+            a{
+                text-decoration: underline;
+                color: $background-third-color;
+                transition: color .3s;
+                &:hover{
+                    color: $text-color;
+                }
+            }
+        }
+    }
+}

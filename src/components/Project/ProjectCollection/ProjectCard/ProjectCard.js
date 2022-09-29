@@ -2,25 +2,24 @@ import React from 'react';
 import './ProjectCard.scss';
 
 const ProjectCard = ({ project, className }) => {
-    console.log(project.techStack);
-    const techStack = project.techStack.map((item) => (
-        <div className="project-tech">
+    const techStack = project.techStack.map((item, i) => (
+        <div key={i} className="project-tech">
             {item}
         </div>
     ));
 
     const source = project.source.map((item, i) => (
-        <div className="source">
+        <div key={i} className="source">
             <a href={item.url} target="_blank" rel="noopener noreferrer">{item.text}</a>
             <span>{i === project.source.length - 1 ? "" : ","}</span>
         </div>
     ));
 
     return (
-        <div className={`project-card ${className}`}>
-            <div className="project-title">
+        <div key={project.title} className={`project-card ${className}`}>
+            <h3 className="project-title">
                 {project.title}
-            </div>
+            </h3>
             <div className="project-year">
                 {project.year}
             </div>

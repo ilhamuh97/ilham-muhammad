@@ -8,9 +8,9 @@ const Project = () => {
     return (
         <div id="project" className="project">
             <div className="container">
-                <h1 className="title">
+                <h2 className="title">
                     My Projects
-                </h1>
+                </h2>
                 <ProjectCollection
                     list={projectList.list}
                 />
