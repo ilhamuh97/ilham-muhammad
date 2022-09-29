@@ -1,6 +1,5 @@
 import React from 'react';
-import { AiFillGithub } from "react-icons/ai"
-import { DiReact } from "react-icons/di"
+import { AiFillGithub } from "react-icons/ai";
 
 import "./AboutWebsite.scss";
 
@@ -11,7 +10,7 @@ const AboutWebsite = () => {
                 <a className="about-website-link" href="https://github.com/ilhamuh97/cv-template" target="_blank" rel="noopener noreferrer">
                     <div className="text">
                         <span >
-                            This website was created using React <DiReact />.
+                            This website was created using React.
                         </span>
                         <span>
                             See it on Github <AiFillGithub />.
