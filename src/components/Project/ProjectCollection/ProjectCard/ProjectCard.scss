@@ -31,6 +31,10 @@
       a{
         text-decoration: underline;
         color: $background-third-color;
+        transition: color .3s;
+        &:hover{
+          color: $text-color;
+        }
       }
     }
   }

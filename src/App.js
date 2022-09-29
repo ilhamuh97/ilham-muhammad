@@ -5,6 +5,7 @@ import Main from "./components/Main/Main";
 import Project from "./components/Project/Project";
 import Journey from './components/Journey/Journey';
 import Footer from "./components/Footer/Footer";
+import AboutWebsite from './components/AboutWebsite/AboutWebsite';
 import Separator from "./components/Separator/Separator";
 import { useDispatch } from 'react-redux';
 import { windowResize, windowScroll } from './store/reducers/app';
@@ -54,6 +55,7 @@ function App() {
             <Separator />
             <Journey />
             <Project />
+            <AboutWebsite />
             <Footer />
         </div>
     );

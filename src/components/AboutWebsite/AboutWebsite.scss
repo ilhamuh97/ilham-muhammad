@@ -1,0 +1,27 @@
+.about-website{
+    padding: 10%;
+    .about-website-link, .about-website-link>div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: fit-content;
+        margin: 0 auto;
+    }
+    .text{
+        text-align: center;
+        white-space: pre-wrap;
+        margin: 0;
+        span{
+            border-bottom: 1px solid transparent;
+            transition: .3s;
+            display: flex;
+            align-items: center;
+        }
+        &:hover{
+            span{
+                border-color: black;
+            }
+        }
+    }
+}
