@@ -1,10 +1,9 @@
-import React from 'react';
-import MyPic from '../../assets/images/ilham-muhammad.jpeg';
-import { profileText } from '../../assets/data/profile';
-import './Profile.scss';
+import React from "react";
+import MyPic from "../../assets/images/ilham-muhammad.jpeg";
+import { profileText } from "../../assets/data/profile";
+import "./Profile.scss";
 
 const Profile = () => {
-
     return (
         <div className="profile">
             <div className="detail-me-holder">

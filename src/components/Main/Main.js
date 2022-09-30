@@ -1,7 +1,7 @@
-import React from 'react';
-import Hero from '../Hero/Hero';
+import React from "react";
+import Hero from "../Hero/Hero";
 import Profile from "../Profile/Profile";
-import './Main.scss';
+import "./Main.scss";
 
 const Main = () => {
     return (
