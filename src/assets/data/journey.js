@@ -47,6 +47,6 @@ export const journey = [
         title: "University of Applied Science Berlin, Germany",
         url: "https://imi-bachelor.htw-berlin.de/",
         major: "International Media and Computing (B.Sc)",
-        year: "April 2015 - August 2021",
+        year: "October 2016 - August 2021",
     },
 ];
