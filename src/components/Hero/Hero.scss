@@ -21,11 +21,16 @@
     justify-content: center;
     .social-icon{
       font-size: 1.5rem;
-      padding: 0.8rem;
+      padding: 0.5rem;
       margin: 5px;
       display: flex;
       justify-content: center;
       align-items: center;
+      transition: border .3s;
+      border-bottom: 2px solid #113f6700;
+      &:hover{
+        border-bottom: 2px solid #113f67;
+      }
     }
   }
 }
