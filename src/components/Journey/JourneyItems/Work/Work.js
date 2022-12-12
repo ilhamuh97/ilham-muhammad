@@ -21,6 +21,7 @@ const Work = ({ item, i }) => {
                     ))}
                 </ul>
             </div>
+            {item.projects ? (
             <div className="journey-projects">
                 <span>List of contributed projects:</span>
                 {item.projects?.map((project, projectIdx) => (
@@ -39,6 +40,7 @@ const Work = ({ item, i }) => {
                     </div>
                 ))}
             </div>
+            ) : null}
         </div>
     );
 };
