@@ -16,10 +16,15 @@ export const journey = [
         description: {
             text: "The scope of duties included the following activities:",
             list: [
-                "Programming with javascript /typescript",
+                "Programming with javascript / typescript",
                 "Creation of configuration files for Javascript frameworks as needed",
             ],
         },
+        projects: [
+            {
+                text: "Internal Software",
+                url: "",
+            },
     },
     {
         type: "work",
