@@ -23,7 +23,7 @@ const Work = ({ item, i }) => {
             </div>
             <div className="journey-projects">
                 <span>List of contributed projects:</span>
-                {item?.projects.map((project, projectIdx) => (
+                {item.projects?.map((project, projectIdx) => (
                     <div key={projectIdx} className="journey-project">
                         <a
                             href={project.url}
