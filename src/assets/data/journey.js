@@ -20,11 +20,6 @@ export const journey = [
                 "Creation of configuration files for Javascript frameworks as needed",
             ],
         },
-        projects: [
-            {
-                text: "Internal Software",
-                url: "",
-            },
     },
     {
         type: "work",
