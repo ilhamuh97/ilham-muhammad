@@ -17,13 +17,6 @@ const Hero = () => {
             <div className="social-media">
                 <a
                     className="social-icon"
-                    href="https://www.instagram.com/ilhamuh97"
-                    target="_blank"
-                    rel="noopener noreferrer">
-                    <i className="fab fa-instagram" />
-                </a>
-                <a
-                    className="social-icon"
                     href="https://www.linkedin.com/in/ilhammuhammad-735b2b187"
                     target="_blank"
                     rel="noopener noreferrer">

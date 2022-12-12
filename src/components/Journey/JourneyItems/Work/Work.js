@@ -22,24 +22,24 @@ const Work = ({ item, i }) => {
                 </ul>
             </div>
             {item.projects ? (
-            <div className="journey-projects">
-                <span>List of contributed projects:</span>
-                {item.projects?.map((project, projectIdx) => (
-                    <div key={projectIdx} className="journey-project">
-                        <a
-                            href={project.url}
-                            target="_blank"
-                            rel="noopener noreferrer">
-                            {project.text}
-                        </a>
-                        <span>
-                            {projectIdx === item.projects.length - 1
-                                ? ""
-                                : ", "}
-                        </span>
-                    </div>
-                ))}
-            </div>
+                <div className="journey-projects">
+                    <span>List of contributed projects:</span>
+                    {item.projects?.map((project, projectIdx) => (
+                        <div key={projectIdx} className="journey-project">
+                            <a
+                                href={project.url}
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                {project.text}
+                            </a>
+                            <span>
+                                {projectIdx === item.projects.length - 1
+                                    ? ""
+                                    : ", "}
+                            </span>
+                        </div>
+                    ))}
+                </div>
             ) : null}
         </div>
     );

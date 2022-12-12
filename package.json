@@ -1,7 +1,7 @@
 {
     "name": "cv-template",
     "version": "0.1.1",
-    "homepage": "https://ilham-cv-template.herokuapp.com/",
+    "homepage": "https://ilham-cv-template.netlify.com/",
     "private": true,
     "dependencies": {
         "@reduxjs/toolkit": "^1.6.1",
