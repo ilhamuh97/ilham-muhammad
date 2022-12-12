@@ -8,6 +8,21 @@ export const journey = [
     },
     {
         type: "work",
+        title: "daato GmbH",
+        url: "https://www.daato.net/",
+        role: "Software Programmer",
+        typeOfJob: "Working Student",
+        year: "October 2022 - Present",
+        description: {
+            text: "The scope of duties included the following activities:",
+            list: [
+                "Programming with javascript /typescript",
+                "Creation of configuration files for Javascript frameworks as needed"
+            ],
+        },
+    },
+    {
+        type: "work",
         title: "i-ways sales solutions GmbH",
         url: "https://i-ways.net/",
         role: "Frontend Developer",
