@@ -80,7 +80,7 @@ export const projectList = {
             techStack: ["SVG.js", "Chart.js", "p5.js"],
             source: [
                 {
-                    url: "https://github.com/ilhamuh97/hanoi-visualization",
+                    url: "https://ilhamuh97.github.io/hanoi-visualization/",
                     text: "Hanoi",
                 },
                 {
@@ -88,7 +88,7 @@ export const projectList = {
                     text: "Pre-attentive Test",
                 },
                 {
-                    url: "https://github.com/ilhamuh97/histogram",
+                    url: "https://ilhamuh97.github.io/histogram/",
                     text: "Histogram",
                 },
             ],
