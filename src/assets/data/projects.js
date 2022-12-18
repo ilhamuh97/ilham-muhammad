@@ -31,7 +31,7 @@ export const projectList = {
             type: "Independent Course at University",
             year: "November 2022 - present",
             description:
-                "This website called CYOM which stands for Create Your Own Model. With this website we are able to create a CNN model without coding. Other than that it's also working using mobile devices.\n\nFor now, this website is still under development because some features are not implemented yet such as data augmentation, collecting data by importing files or folders, etc.",
+                "This website is called CYOM which stands for Create Your Own Model. By using this website, we are able to build our own CNN model without coding. In addition, this website can also work using mobile devices.\n\nAt present, this website is still under development as some features have not been implemented such as adding files or labeled folders, collecting data by importing files or folders, saving created models, etc.",
             techStack: ["React.js", "Tensorflow.js", "p5.js", "Ant Design"],
             source: [
                 {
