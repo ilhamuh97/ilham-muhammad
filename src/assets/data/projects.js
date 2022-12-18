@@ -32,7 +32,7 @@ export const projectList = {
             year: "November 2022 - present",
             description:
                 "This website called CYOM which stands for Create Your Own Model. With this website we are able to create a CNN model without coding. Other than that it's also working using mobile devices.\n\nFor now, this website is still under development because some features are not implemented yet such as data augmentation, collecting data by importing files or folders, etc.",
-            techStack: ["React.js, Tensorflow.js, p5.js, Ant Design"],
+            techStack: ["React.js", "Tensorflow.js", "p5.js", "Ant Design"],
             source: [
                 {
                     url: "https://cyom-cnn.netlify.app/",
