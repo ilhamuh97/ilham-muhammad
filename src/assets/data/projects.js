@@ -22,7 +22,7 @@ export const projectList = {
             type: "Independent Project",
             year: "November 2022 - present",
             description:
-                "This website is called ClassifyAI. By using this website, we are able to build our own CNN model for image classification without coding. In addition, this website can also work using mobile devices.\n\nAt present, this website is still under development as some features have not been implemented such collecting data by importing files or labeled folders, saving created models, etc.",
+                "This website is called ClassifyAI. By using this website, we are able to build our own CNN model for image classification without coding. In addition, this website can also work using mobile devices.\n\nAt present, this website is still under development as some features have not been implemented such collecting data by importing files or labeled folders, saving and loading existing models, etc.",
             techStack: ["React.js", "Tensorflow.js", "p5.js", "Ant Design"],
             source: [
                 {
