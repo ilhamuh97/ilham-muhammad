@@ -25,10 +25,12 @@ const ProjectCard = ({ project, className }) => {
             <div className="project-description">
                 Type of project: {project.type}
             </div>
-            <div className="project-sources">
-                <span>See live on:</span>
-                {source}
-            </div>
+            {source.length ? (
+                <div className="project-sources">
+                    <span>See live on:</span>
+                    {source}
+                </div>
+            ) : null}
             <div className="project-tech-stacks">{techStack}</div>
         </div>
     );
