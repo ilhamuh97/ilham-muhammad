@@ -10,7 +10,7 @@ export const journey = [
         type: "work",
         title: "daato GmbH",
         url: "https://www.daato.net/",
-        role: "Software Programmer",
+        role: "Software Engineer",
         typeOfJob: "Working Student",
         year: "October 2022 - Present",
         description: {
