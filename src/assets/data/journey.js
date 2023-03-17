@@ -19,7 +19,7 @@ export const journey = [
                 "Programming with JavaScript / TypeScript",
                 "Creation of configuration files for JavaScript frameworks as needed",
                 "Active participated in the agile environment (Jira/Confluence)",
-                "Data processing in JavaScript"
+                "Data processing in JavaScript",
             ],
         },
     },
