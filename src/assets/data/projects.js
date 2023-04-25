@@ -22,7 +22,16 @@ export const projectList = {
             type: "Independent Project",
             year: "November 2022 - present",
             description:
-                "This website is called ClassifyAI. By using this website, we are able to build our own CNN model for image classification without coding. In addition, this website can also work using mobile devices.\n\nAt present, this website is still under development as some features have not been implemented such collecting data by importing files or labeled folders, saving and loading existing models, etc.",
+                `The application, called ClassifyAI, provides a user-friendly interface for creating models for image classification without the need for coding or deep learning expertise. Key achievements of the application include its ease of use and accessibility for users of all skill levels. The application has a responsive design, which enables it to be accessed via mobile phones as well.\n
+\n
+The process of creating a model for image classification using the ClassifyAI web-based application involves four key steps:\n
+\n
+1. Class Creation and Data Collection: In this step, users create categories or classes of images and collect the relevant data to train the model.\n
+2. Setting Parameters for Training and Data Augmentation: Users set various parameters such as batch size, number of epochs, learning rate, etc. to optimize the model's performance. They can also perform data augmentation to generate additional training data.\n
+3. Training and Evaluation: In this step, the model is trained on the collected dataset and evaluated to check its accuracy and performance.\n
+4. Prediction using the Trained Model: After the model is trained and evaluated, it can be used to make predictions on new images that the user inputs.\n
+\n
+The application utilizes several modern javascript-based frameworks, including React for the frontend library, TensorFlow.js for the machine learning library, p5.js for image processing, ApexCharts.js for data visualization, and AntDesign for the UI library.`,
             techStack: ["React.js", "Tensorflow.js", "p5.js", "Ant Design"],
             source: [
                 {
