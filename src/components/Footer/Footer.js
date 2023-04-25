@@ -5,7 +5,9 @@ const Footer = () => {
     return (
         <footer className="footer">
             <div className="container">
-                <div className="text">© Copyright 2021 Ilhamuh97</div>
+                <div className="text">
+                    © Copyright {new Date().getFullYear()} Ilhamuh97
+                </div>
             </div>
         </footer>
     );
