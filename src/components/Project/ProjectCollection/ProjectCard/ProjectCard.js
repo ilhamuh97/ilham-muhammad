@@ -21,13 +21,17 @@ const ProjectCard = ({ project, className }) => {
         <div key={project.title} className={`project-card ${className}`}>
             <h3 className="project-title">{project.title}</h3>
             <div className="project-year">{project.year}</div>
-            <div className="project-description">{project.description}</div>
             <div className="project-description">
-                Type of project: {project.type}
+                <strong>Description: </strong>
+                {project.description}
+            </div>
+            <div className="project-description">
+                <strong>Type of project: </strong>
+                {project.type}
             </div>
             {source.length ? (
                 <div className="project-sources">
-                    <span>See live on:</span>
+                    <strong>See live on:</strong>
                     {source}
                 </div>
             ) : null}
