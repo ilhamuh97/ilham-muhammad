@@ -21,8 +21,7 @@ export const projectList = {
             title: "ClassifyAI",
             type: "Independent Project",
             year: "November 2022 - present",
-            description:
-                `The application, called ClassifyAI, provides a user-friendly interface for creating models for image classification without the need for coding or deep learning expertise. Key achievements of the application include its ease of use and accessibility for users of all skill levels. The application has a responsive design, which enables it to be accessed via mobile phones as well.\n
+            description: `The application, called ClassifyAI, provides a user-friendly interface for creating models for image classification without the need for coding or deep learning expertise. Key achievements of the application include its ease of use and accessibility for users of all skill levels. The application has a responsive design, which enables it to be accessed via mobile phones as well.\n
 \n
 The process of creating a model for image classification using the ClassifyAI web-based application involves four key steps:\n
 \n
