@@ -8,6 +8,7 @@
     justify-content: center;
     .img-holder{
       width: 50%;
+      max-width: 400px;
       .my-pic{
         width: 100%;
         height: 100%;
@@ -44,6 +45,8 @@
   .profile{
     .detail-me-holder{
       flex-direction: column;
+      max-width: 400px;
+      margin: 0 auto;
       .img-holder{
         width: 100%;
       }
