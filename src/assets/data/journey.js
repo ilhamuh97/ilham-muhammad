@@ -8,11 +8,28 @@ export const journey = [
     },
     {
         type: "work",
+        title: "Bosch.IO GmbH",
+        url: "https://www.bosch-digital.com/",
+        role: "Frontend Developer",
+        typeOfJob: "Working Student",
+        year: "May 2023 - Present",
+        description: {
+            text: "The scope of duties included the following activities:",
+            list: [
+                "Programming with JavaScript / TypeScript",
+                "Collaborated in the project of developing an internal application for logistic management",
+                "Developing application using Angular",
+                "Active participated in the agile environment (Jira/Confluence)",
+            ],
+        },
+    },
+    {
+        type: "work",
         title: "daato GmbH",
         url: "https://www.daato.net/",
         role: "Software Engineer",
         typeOfJob: "Working Student",
-        year: "October 2022 - Present",
+        year: "October 2022 - April 2023",
         description: {
             text: "The scope of duties included the following activities:",
             list: [
