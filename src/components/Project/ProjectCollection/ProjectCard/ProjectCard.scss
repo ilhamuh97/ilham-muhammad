@@ -1,6 +1,6 @@
 @import "../../../../styles/styles";
 .project-card{
-  margin: 1rem;
+  margin: .5rem;
   border-radius: 15px;
   box-shadow: 0 0 5px rgb(0 0 0 / 10%);
   transition: box-shadow 0.3s;
@@ -54,23 +54,5 @@
   }
   &:hover{
     box-shadow: 0 0 10px rgb(0 0 0 / 20%);
-  }
-}
-
-@media only screen and (min-width: 1441px) {
-  .card{
-    max-width: calc(33.333% - 4rem);
-    flex-basis: 33.333%;
-  }
-}
-
-@media only screen and (max-width: 767px) {
-  .card{
-  max-width: calc(100% - 4rem);
-    flex-basis: 100%;
-    .project-name{
-      padding: 1rem;
-      font-size: 1rem;
-    }
   }
 }
