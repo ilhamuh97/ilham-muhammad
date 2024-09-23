@@ -5,7 +5,7 @@ export const projectList = {
             type: "Volunteering Project",
             year: "November 2021 - present",
             description:
-                "This website was created to provide an ordering system for food or drinks traded at the annual food festival organized by IWKZ e.V. called SASO.\n\nThe website was first launched at the SASO 2022 event, and I am responsible as a frontend developer on this project.",
+                "This website was created to provide an ordering system for food or drinks traded at the annual food festival organized by IWKZ e.V. called SASO.\n\nThe website was first launched at the SASO 2022 event, and I am responsible as a fullstack developer on this project.",
             techStack: [
                 "Next.js",
                 "Ant Design",

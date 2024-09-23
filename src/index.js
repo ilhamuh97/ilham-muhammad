@@ -1,11 +1,14 @@
 import React, { Suspense } from "react";
 import ReactDOM from "react-dom";
-import "./index.scss";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import Loader from "./components/Loader/Loader";
 import { Provider } from "react-redux";
 import store from "./store/store";
+
+import "./index.scss";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 ReactDOM.render(
     <React.StrictMode>

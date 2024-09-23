@@ -5,8 +5,12 @@
     display: flex;
     flex-direction: row;
     margin: 0 -1rem;
-
   }
+
+  .slick-prev:before, .slick-next:before{
+    color: #113F67
+  } 
+  
   .button-wrapper{
     display: flex;
     align-items: center;

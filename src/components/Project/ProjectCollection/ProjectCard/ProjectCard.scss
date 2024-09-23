@@ -2,8 +2,6 @@
 .project-card{
   margin: 1rem;
   border-radius: 15px;
-  max-width: calc(50% - 4rem);
-  flex-basis: 50%;
   box-shadow: 0 0 5px rgb(0 0 0 / 10%);
   transition: box-shadow 0.3s;
   background: $background-color;

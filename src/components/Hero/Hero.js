@@ -6,7 +6,7 @@ const Hero = () => {
     const heroText = {
         name: "Hi, I'm Ilham",
         shortStory:
-            "I am a frontend website developer with a passion for creating visually appealing and user-friendly websites. In addition to my development skills, I am interested in visual computing, including computer vision, image processing, and data visualization.",
+            "I am a website developer with a strong interest in visual computing, including fields like computer vision, image processing, and data visualization.",
     };
     return (
         <header className="hero">
