@@ -1,5 +1,5 @@
 import React, { Suspense } from "react";
-import ReactDOM from "react-dom";
+import ReactDOM from "react-dom/client";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import Loader from "./components/Loader/Loader";
@@ -10,7 +10,9 @@ import "./index.scss";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-ReactDOM.render(
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
+root.render(
     <React.StrictMode>
         <Provider store={store}>
             <Suspense fallback={<Loader />}>
@@ -18,7 +20,6 @@ ReactDOM.render(
             </Suspense>
         </Provider>
     </React.StrictMode>,
-    document.getElementById("root"),
 );
 
 // If you want to start measuring performance in your app, pass a function
