@@ -53,7 +53,7 @@ export const journey = [
                 "Collaborated in frontend development projects with a focus on e-commerce websites.",
                 "Developed projects using ReactJS, CakePHP, MySQL, HTML5, CSS3, and JavaScript.",
                 "Conducted quality assurance and testing to ensure project standards.",
-                "Actively worked in agile environments, utilizing both Scrum and Kanban methodologies."
+                "Actively worked in agile environments, utilizing both Scrum and Kanban methodologies.",
             ],
         },
         projects: [
