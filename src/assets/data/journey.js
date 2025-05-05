@@ -3,23 +3,24 @@ export const journey = [
         type: "Study",
         title: "University of Applied Science Berlin, Germany",
         url: "https://imi-master.htw-berlin.de/",
-        major: "International Media and Computing (M.Sc)",
-        year: "April 2021 - present",
+        major: "International Media and Computing (MSc)",
+        year: "April 2021 - April 2025",
     },
     {
         type: "work",
-        title: "Bosch.IO GmbH",
+        title: "Robert Bosch GmbH",
         url: "https://www.bosch-digital.com/",
         role: "Frontend Developer",
         typeOfJob: "Working Student",
-        year: "May 2023 - Present",
+        year: "May 2023 - April 2025",
         description: {
             text: "The scope of duties included the following activities:",
             list: [
-                "Programming with JavaScript / TypeScript",
                 "Collaborated in the project of developing an internal application for logistic management",
-                "Developing application using Angular",
-                "Active participated in the agile environment (Jira/Confluence)",
+                "Developed and tested applications using Angular, implementing unit tests with Jasmine and Karma.",
+                "Utilized RxJS extensively to handle HTTP requests for efficient data retrieval.",
+                "Implemented data visualization using AG Grid and Highcharts to display the retrieved data effectively.",
+                "Actively contributed in an agile environment using Jira for task management and sprint planning",
             ],
         },
     },
@@ -33,10 +34,9 @@ export const journey = [
         description: {
             text: "The scope of duties included the following activities:",
             list: [
-                "Programming with JavaScript / TypeScript",
-                "Creation of configuration files for JavaScript frameworks as needed",
-                "Active participated in the agile environment (Jira/Confluence)",
-                "Data processing in JavaScript",
+                "Proficient in programming with JavaScript and TypeScript.",
+                "Processed data retrieved in Excel format into JSON for visualization in charts as per project requirements.",
+                "Created configuration files for JavaScript/Typescript frameworks to support ESG report generation.",
             ],
         },
     },
@@ -50,11 +50,10 @@ export const journey = [
         description: {
             text: "The scope of duties included the following activities:",
             list: [
-                "Cooperated in current development projects (frontend, backend)",
-                "Collaborated in the projects with focus on e-commerce website",
-                "Developed projects with the use of the following frameworks and technologies: ReactJS, CakePHP, MySQL, HTML5, CSS3, Javascript",
-                "Quality assurance and testing",
-                "Active participated in the agile environment (Jira/Confluence)",
+                "Collaborated in frontend development projects with a focus on e-commerce websites.",
+                "Developed projects using ReactJS, CakePHP, MySQL, HTML5, CSS3, and JavaScript.",
+                "Conducted quality assurance and testing to ensure project standards.",
+                "Actively worked in agile environments, utilizing both Scrum and Kanban methodologies."
             ],
         },
         projects: [
@@ -80,7 +79,7 @@ export const journey = [
         type: "Study",
         title: "University of Applied Science Berlin, Germany",
         url: "https://imi-bachelor.htw-berlin.de/",
-        major: "International Media and Computing (B.Sc)",
+        major: "International Media and Computing (BSc)",
         year: "October 2016 - August 2021",
     },
 ];
