@@ -51,7 +51,7 @@ The application utilizes several javascript-based libraries, including React for
             techStack: ["Vanilla.js", "SVG.js", "Chart.js", "p5.js"],
             source: [
                 {
-                    url: "https://ilhamuh97.github.io/hanoi-visualization/",
+                    url: "https://hanoi-viz.netlify.app/",
                     text: "Hanoi",
                 },
                 {
