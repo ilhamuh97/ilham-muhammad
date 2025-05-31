@@ -59,7 +59,7 @@ The application utilizes several javascript-based libraries, including React for
                     text: "Pre-attentive Test",
                 },
                 {
-                    url: "https://ilhamuh97.github.io/histogram/",
+                    url: "https://show-histogram.netlify.app/",
                     text: "Histogram",
                 },
             ],
